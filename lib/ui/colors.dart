@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import '../controller.dart';
 
 class ColorsPage extends StatefulWidget {
 
@@ -14,7 +13,6 @@ class ColorsPage extends StatefulWidget {
 
 class _ColorsPageState extends State<ColorsPage> {
   late FlutterTts flutterTts;
-  final controller = Get.put(Controller());
   late AssetsAudioPlayer _assetsAudioPlayer;
   var tappedIndex=0.obs;
 
